@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Project: Sign up Form</title>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+
+    <body>
+      <div class="img-side">
+        <div class="logo">
+            <img class="odin-logo" src="/odin-lined.png" alt="The Odin Project logo">
+            <h1 class="odin-text">ODIN</h1>
+        </div>
+        <div class="credit">Photo by <a href="https://unsplash.com/photos/25xggax4bSA">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></div>
+      </div>
+      <div class="form-side">
+        <p class="text-presentation">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+        <p class="text-presentation">You <em>know</em> you want to.</p>
+        <form action="#" method="post">
+          <div class="input-section">
+            <h2>Let's do this!</h2>
+            <fieldset>
+              <div class="form-row">
+                <label for="first-name">FIRST NAME</label>
+                <input id="first-name" name="first-name" type="text" required>
+              </div>
+              <div class="form-row">
+                <label for="last-name">LAST NAME</label>
+                <input id="last-name" name="last-name" type="text" required>
+              </div>
+            </fieldset>
+            <fieldset>
+              <div class="form-row">
+                <label for="email">EMAIL</label>
+                <input id="email" name="email" type="email" required>
+              </div>
+              <div class="form-row">
+                <label for="phone-number">PHONE NUMBER</label>
+                <input id="phone-number" name="phone-number" type="tel" pattern="\d*">
+              </div>
+            </fieldset>
+            <fieldset>
+              <div class="form-row">
+                <label for="password">PASSWORD</label>
+                <input id="password" name="password" type="password" required>
+              </div>
+              <div class="form-row">
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <input id="confirm-password" name="confirm-password" type="password" required>
+              </div>
+            </fieldset>
+          </div>
+          <div class="submit-btn">
+            <button>Create Account</button>
+          </div>
+        </form>
+        <p class="login">Already have an account? <a href="#">Log in</a></p>
+      </div>
+        <script src="/script.js"></script>
+    </body>
+</html>
