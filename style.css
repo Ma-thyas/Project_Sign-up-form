@@ -4,7 +4,7 @@
     --background-tone: #f9fafb;
     --form-tone: #ffffff;
     --selected-border: #1841b5;
-    --padding-left-imput-side: 7vh;
+    --padding-left-input-side: 7vh;
     
 }
 
@@ -80,7 +80,7 @@ body {
     font-size: 22px;
     font-weight: 600;
     width: 80%;
-    padding-left: var(--padding-left-imput-side);
+    padding-left: var(--padding-left-input-side);
 }
 
 form {
@@ -90,7 +90,7 @@ form {
 .input-section {
     background-color: var(--form-tone);
     box-shadow: 0 3px 8px var(--border-tone); 
-    padding-left: var(--padding-left-imput-side);
+    padding-left: var(--padding-left-input-side);
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 40px;
@@ -136,8 +136,20 @@ form {
     box-shadow: 2px 2px 3px var(--border-tone);
 }
 
+.conf-pwd:focus {
+    outline: none;
+    border: 1px solid red;
+    box-shadow: 2px 2px 3px var(--border-tone);
+}
+
+.pwd-message {
+    color: red;
+    font-size: 10px;
+    padding-top: 2px;
+}
+
 .submit-btn {
-    padding-left: var(--padding-left-imput-side);
+    padding-left: var(--padding-left-input-side);
 }
 
 .submit-btn button {
@@ -153,7 +165,7 @@ form {
 }
 
 .login {
-    padding-left: var(--padding-left-imput-side);
+    padding-left: var(--padding-left-input-side);
     font-size: 18px;
 }
 
